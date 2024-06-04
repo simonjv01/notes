@@ -30,7 +30,7 @@ def getRoutes(request):
             'Endpoint': '/notes/id/delete',
             'method': 'DELETE',
             'body': None,
-            'description': 'Deletes and exits note'
+            'description': 'Deletes and exits notes'
         },
     ]
     return JsonResponse(routes, safe=False)
